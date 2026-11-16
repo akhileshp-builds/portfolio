@@ -105,7 +105,7 @@ export const personalInfo = {
       }
     ]
   },
-  email: "akhipn4753@gmail.com",
+  email: "akhileshp.dev@gmail.com",
   phone: "+91 9526008613",
   location: "Malappuram, Kerala, India",
   profileImage: "/Akhilesh/hero-portrait.webp",
