@@ -13,8 +13,9 @@ const CATEGORY_ICONS = {
 /**
  * Renders a single rounded skill pill badge with subtle orange/amber indicator.
  * Supports interactive selection with pause and highlight.
+ * Cloned copies carry aria-hidden="true" and tabIndex="-1" to prevent duplicate accessibility/SEO reading.
  */
-const SkillBadge = ({ label, accentColor, isSelected, onToggle }) => (
+const SkillBadge = ({ label, accentColor, isSelected, onToggle, isCloned = false }) => (
   <button
     type="button"
     className={`skill-marquee-badge${isSelected ? ' is-selected' : ''}`}
@@ -24,6 +25,8 @@ const SkillBadge = ({ label, accentColor, isSelected, onToggle }) => (
     }}
     aria-pressed={isSelected}
     aria-label={label}
+    aria-hidden={isCloned ? 'true' : undefined}
+    tabIndex={isCloned ? -1 : undefined}
   >
     <span
       style={{
@@ -188,28 +191,32 @@ export const SkillMarqueeRow = ({ category, direction = 'rtl' }) => {
                   flexShrink: 0
                 }}
               >
-                {halfTrackBatches.map((batchIdx) => (
-                  <div
-                    key={`${halfIdx}-${batchIdx}`}
-                    aria-hidden={halfIdx === 0 && batchIdx > 0 ? 'true' : undefined}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '0.75rem',
-                      flexShrink: 0
-                    }}
-                  >
-                    {category.skills.map((skill) => (
-                      <SkillBadge
-                        key={`${halfIdx}-${batchIdx}-${skill}`}
-                        label={skill}
-                        accentColor={accentColor}
-                        isSelected={selectedSkill === skill}
-                        onToggle={handleSkillToggle}
-                      />
-                    ))}
-                  </div>
-                ))}
+                {halfTrackBatches.map((batchIdx) => {
+                  const isCloned = halfIdx > 0 || batchIdx > 0;
+                  return (
+                    <div
+                      key={`${halfIdx}-${batchIdx}`}
+                      aria-hidden={isCloned ? 'true' : undefined}
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.75rem',
+                        flexShrink: 0
+                      }}
+                    >
+                      {category.skills.map((skill) => (
+                        <SkillBadge
+                          key={`${halfIdx}-${batchIdx}-${skill}`}
+                          label={skill}
+                          accentColor={accentColor}
+                          isSelected={selectedSkill === skill}
+                          onToggle={handleSkillToggle}
+                          isCloned={isCloned}
+                        />
+                      ))}
+                    </div>
+                  );
+                })}
               </div>
             ))}
           </div>

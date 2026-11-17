@@ -19,8 +19,7 @@ function escapeXml(value) {
 function buildSitemapXml() {
   const currentDate = new Date().toISOString().split('T')[0];
   const entries = [
-    { loc: `${SITE_ORIGIN}/`, lastmod: currentDate, changefreq: 'weekly', priority: '1.0' },
-    { loc: `${SITE_ORIGIN}/llms.txt`, lastmod: currentDate, changefreq: 'monthly', priority: '0.8' }
+    { loc: `${SITE_ORIGIN}/`, lastmod: currentDate, changefreq: 'weekly', priority: '1.0' }
   ];
 
   for (const project of projects) {

@@ -35,7 +35,7 @@ export const FAQ = () => {
       if (part === 'https://akhileshp.com/#contact') {
         return (
           <a key={i} href="#contact">
-            akhileshp.com/#contact
+            {part}
           </a>
         );
       }
@@ -87,7 +87,6 @@ export const FAQ = () => {
                     role="region"
                     aria-labelledby={triggerId}
                     className="faq-panel"
-                    hidden={!isOpen}
                   >
                     <div className="faq-panel-content">
                       <p className="faq-answer">{renderFormattedAnswer(faq.answer)}</p>
