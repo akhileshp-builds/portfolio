@@ -10,6 +10,7 @@ import { CurrentWork } from '../sections/CurrentWork/CurrentWork';
 import { Skills } from '../sections/Skills/Skills';
 import { Projects } from '../sections/Projects/Projects';
 import { Services } from '../sections/Services/Services';
+import { FAQ } from '../sections/FAQ/FAQ';
 import { Contact } from '../sections/Contact/Contact';
 
 export const HomePage = ({ targetSection } = {}) => {
@@ -41,6 +42,7 @@ export const HomePage = ({ targetSection } = {}) => {
       <CurrentWork />
       <Projects />
       <Services />
+      <FAQ />
       <Contact />
     </>
   );

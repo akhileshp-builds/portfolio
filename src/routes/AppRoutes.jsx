@@ -52,6 +52,7 @@ export const AppRoutes = ({ projectDetailsPage: SyncProjectDetailsPage, notFound
         <Route path="/skills" element={<HomePage targetSection="skills" />} />
         <Route path="/projects" element={<HomePage targetSection="projects" />} />
         <Route path="/services" element={<HomePage targetSection="services" />} />
+        <Route path="/faq" element={<HomePage targetSection="faq" />} />
         <Route path="/contact" element={<HomePage targetSection="contact" />} />
 
         {/* Dedicated Project Detail Case Studies */}
