@@ -6,7 +6,7 @@ export const personalInfo = {
   heroLabel: "FULL-STACK DEVELOPER",
   heroHeadline: "Full-Stack Developer in Malappuram, Kerala",
   heroBio:
-    "Hi, I'm Akhilesh P. With a strong commerce foundation and hands-on experience across enterprise .NET ERP systems and full-stack Python Django web applications, I build performant digital products enhanced with practical AI API integrations.",
+    "I’m Akhilesh P., a Full-Stack Developer based in Malappuram, Kerala, with a strong background in commerce and accounting. I build business-oriented web applications, enterprise ERP modules, and AI-powered digital products using React, Django, and ASP.NET Core.",
   about: {
     badge: "ABOUT ME",
     title: "More Than Code.",

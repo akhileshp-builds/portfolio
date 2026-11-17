@@ -3,14 +3,14 @@ export const socialLinks = [
   {
     name: "GitHub",
     url: "https://github.com/akhileshp-builds",
-    label: "github.com/Akhilesh-4753",
+    label: "github.com/akhileshp-builds",
     icon: "Github",
     type: "code"
   },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/akhileshp-dev",
-    label: "linkedin.com/in/akhilesh4753",
+    label: "linkedin.com/in/akhileshp-dev",
     icon: "Linkedin",
     type: "professional"
   },
