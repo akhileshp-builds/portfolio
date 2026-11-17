@@ -17,18 +17,30 @@ function escapeXml(value) {
 }
 
 function buildSitemapXml() {
-  const urls = new Set([`${SITE_ORIGIN}/`]);
+  const currentDate = new Date().toISOString().split('T')[0];
+  const entries = [
+    { loc: `${SITE_ORIGIN}/`, lastmod: currentDate, changefreq: 'weekly', priority: '1.0' },
+    { loc: `${SITE_ORIGIN}/llms.txt`, lastmod: currentDate, changefreq: 'monthly', priority: '0.8' }
+  ];
 
   for (const project of projects) {
     const slug = typeof project?.slug === 'string' ? project.slug.trim() : '';
     if (!slug || /[?#\s]/.test(slug) || slug.startsWith('api/')) {
       continue;
     }
-    urls.add(`${SITE_ORIGIN}/projects/${slug}`);
+    entries.push({
+      loc: `${SITE_ORIGIN}/projects/${slug}`,
+      lastmod: currentDate,
+      changefreq: 'monthly',
+      priority: '0.8'
+    });
   }
 
-  const urlNodes = Array.from(urls)
-    .map((loc) => `  <url>\n    <loc>${escapeXml(loc)}</loc>\n  </url>`)
+  const urlNodes = entries
+    .map(
+      (entry) =>
+        `  <url>\n    <loc>${escapeXml(entry.loc)}</loc>\n    <lastmod>${entry.lastmod}</lastmod>\n    <changefreq>${entry.changefreq}</changefreq>\n    <priority>${entry.priority}</priority>\n  </url>`
+    )
     .join('\n');
 
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlNodes}\n</urlset>\n`;
