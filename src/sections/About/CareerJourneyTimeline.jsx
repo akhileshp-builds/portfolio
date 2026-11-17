@@ -284,7 +284,6 @@ export const CareerJourneyTimeline = ({ journey }) => {
         .career-step:hover .career-node {
           border-color: #F97316;
           box-shadow: 0 0 22px rgba(249, 115, 22, 0.4);
-          transform: scale(1.06);
         }
 
         .career-node-goal {
@@ -317,7 +316,6 @@ export const CareerJourneyTimeline = ({ journey }) => {
         .career-card:hover {
           border-color: var(--border-highlight);
           box-shadow: var(--shadow-glow);
-          transform: translateY(-3px);
         }
 
         .career-card-goal {

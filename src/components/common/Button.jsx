@@ -14,7 +14,7 @@ export const Button = ({
   target,
   rel,
   className = '',
-  magnetic = true,
+  magnetic = false,
   style = {},
   ...rest
 }) => {

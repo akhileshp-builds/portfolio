@@ -704,7 +704,7 @@ export const CurrentWork = () => {
         .pos-module-node:hover {
           border-color: rgba(249, 115, 22, 0.45);
           background-color: rgba(249, 115, 22, 0.08);
-          transform: translateY(-1px);
+          box-shadow: 0 0 14px rgba(249, 115, 22, 0.2);
         }
 
         .pos-module-node-icon {

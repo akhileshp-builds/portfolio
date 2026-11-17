@@ -101,6 +101,7 @@ export const Hero = () => {
                   onClick={() => handleScrollTo('projects')}
                   variant="primary"
                   icon={ArrowRight}
+                  magnetic={false}
                 >
                   Explore My Work
                 </Button>
@@ -110,6 +111,7 @@ export const Hero = () => {
                   variant="outline"
                   icon={Download}
                   download="Akhilesh_P_Resume_2026.pdf"
+                  magnetic={false}
                 >
                   Download CV
                 </Button>

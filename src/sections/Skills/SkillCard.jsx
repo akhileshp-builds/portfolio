@@ -190,7 +190,7 @@ export const SkillCard = ({ category }) => {
         .tech-mini-card:hover {
           border-color: rgba(249, 115, 22, 0.45);
           background-color: rgba(249, 115, 22, 0.08);
-          transform: translateY(-2px);
+          box-shadow: 0 4px 14px -2px rgba(249, 115, 22, 0.22);
         }
         @media (max-width: 480px) {
           .tech-category-grid {

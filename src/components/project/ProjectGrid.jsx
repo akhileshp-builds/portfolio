@@ -244,14 +244,6 @@ export const ProjectGrid = ({ projects }) => {
           border-radius: 20px;
         }
 
-        .project-card-link .project-preview-media {
-          transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
-        }
-
-        .project-card-link:hover .project-preview-media {
-          transform: scale(1.03);
-        }
-
         .project-card-link:hover .project-card-title {
           color: #FDBA74 !important;
         }
