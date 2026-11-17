@@ -40,9 +40,9 @@ export const services = [
     number: "05",
     title: "Responsive UI Development",
     description:
-      "Creating accessible, responsive UI designs that function seamlessly across smartphones, tablets, and desktop workstations.",
-    tags: ["JavaScript", "React.js", "Tailwind CSS"],
-    relatedProject: { label: "View ApnaVilla Frontend Case Study", path: "/projects/apnavilla" },
+      "Creating accessible, responsive UI interfaces that function seamlessly across smartphones, tablets, and desktop workstations.",
+    tags: ["JavaScript", "Next.js", "Tailwind CSS"],
+    relatedProject: { label: "View ApnaVilla Frontend Contributions", path: "/projects/apnavilla" },
     waveform: "sawtooth"
   },
   {

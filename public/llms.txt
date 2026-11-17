@@ -29,7 +29,7 @@
 - **INKSPACE:** Django blogging platform with rich-text editor and Gemini AI writing assistant. Case study: https://akhileshp.com/projects/inkspace
 - **Daybook:** React Native daily planning mobile app with Plan vs. Action analytics and habit tracking. Case study: https://akhileshp.com/projects/daybook
 - **Code7 ERP:** Enterprise ERP web modules developed with ASP.NET Core MVC and Kendo UI data grids. Case study: https://akhileshp.com/projects/code7-erp
-- **ApnaVilla:** Real estate web application developed with React.js frontend integrated with Laravel backend. Case study: https://akhileshp.com/projects/apnavilla
+- **ApnaVilla:** Frontend contributions to ApnaVilla, a real estate web application (project currently on hold) built with Next.js in collaboration with a Laravel backend team. Case study: https://akhileshp.com/projects/apnavilla
 - **POS Business Management:** Collaborative point-of-sale functional planning and business workflow architecture. Case study: https://akhileshp.com/projects/pos-business-management
 
 ## Professional Experience
@@ -37,7 +37,7 @@
 - **Ebsor Infosystem Pvt. Ltd.:** Dot Net Developer — ASP.NET Core MVC, ERP modules, REST APIs (Dec 2024 – Mar 2026)
 - **AllPro TechLabs:** Web Development — React.js applications (UL CyberPark, Calicut)
 - **myG India Private Limited:** Accountant Executive — Financial statements, GL, GST compliance, SAP B1 (Jan 2023 – May 2024)
-- **Branding Hut:** Freelance Collaboration — Frontend development, technical SEO, creative design (Govt. Cyberpark, Kozhikode)
+- **Branding Hut:** Freelance Collaboration — Frontend development on ApnaVilla (on hold), technical SEO, creative design (Govt. Cyberpark, Kozhikode)
 
 ## Official Links
 - Website: https://akhileshp.com/

@@ -46,7 +46,7 @@ export const faqs = [
     id: "team-agency-collaboration",
     question: "Has Akhilesh collaborated with agencies or creative teams?",
     answer:
-      "Yes. Akhilesh collaborated with Branding Hut at Govt. Cyberpark, Kozhikode, where he contributed to React frontend development for the ApnaVilla real estate web application, technical SEO, and creative digital assets."
+      "Yes. Akhilesh collaborated with Branding Hut at Govt. Cyberpark, Kozhikode, contributing frontend development using Next.js to ApnaVilla, a real estate web application (project currently on hold) alongside their Laravel backend team, in addition to technical SEO and creative digital assets."
   },
   {
     id: "performance-seo",

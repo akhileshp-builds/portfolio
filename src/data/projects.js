@@ -381,10 +381,10 @@ export const projects = [
     id: "apnavilla",
     slug: "apnavilla",
     title: "ApnaVilla",
-    tagline: "Real estate web application built with Next.js frontend and Laravel backend",
+    tagline: "Frontend contributions to ApnaVilla, a real estate web application (project currently on hold)",
     category: "Real Estate Web Application",
     filterCategories: ["Full-Stack Development", "Frontend Development"],
-    badge: "Team Collaboration",
+    badge: "Team Project (On Hold)",
     status: null,
     ownership: "Branding Hut Team Collaboration",
     role: "Frontend Developer",
@@ -393,38 +393,39 @@ export const projects = [
     previewType: "apnavilla",
     featured: true,
     shortDescription:
-      "Real estate web application developed with the Branding Hut team, contributing responsive frontend interfaces using Next.js in collaboration with a Laravel backend team.",
+      "Frontend contributions to ApnaVilla, a real estate web application (project currently on hold) developed with the Branding Hut team, contributing responsive interfaces using Next.js in collaboration with a Laravel backend team.",
     technologies: [
       "Next.js",
-      "React.js",
       "JavaScript",
       "Laravel",
+      "PostgreSQL",
       "HTML",
       "CSS",
       "Bootstrap"
     ],
     stats: [
+      { label: "Project Status", value: "On Hold" },
       { label: "Project Type", value: "Team Collaboration" },
       { label: "My Role", value: "Frontend Developer" },
-      { label: "Frontend", value: "Next.js / React" },
+      { label: "Frontend", value: "Next.js" },
       { label: "Backend Team", value: "Laravel" }
     ],
     overview:
-      "ApnaVilla is a real estate web application built collaboratively with the Branding Hut team (Govt. Cyberpark, Kozhikode) to deliver property discovery and real estate digital services. Pairing a Next.js and React.js frontend with Laravel and PostgreSQL backend services, the project focused on responsive cross-device property browsing.",
+      "Frontend contributions to ApnaVilla, a real estate web application (project currently on hold) developed collaboratively with the Branding Hut team (Govt. Cyberpark, Kozhikode). Built with a Next.js frontend integrated with Laravel and PostgreSQL backend services, focusing on responsive property browsing interfaces.",
     purpose:
-      "Enable property seekers to browse real estate listings and service pages smoothly across mobile and desktop viewports while maintaining clean decoupling from the team's Laravel backend.",
+      "Enable property seekers to browse real estate listings and service interfaces across mobile and desktop viewports, decoupled from the team's Laravel backend endpoints.",
     myRole:
-      "Served as Frontend Developer building responsive user interfaces with Next.js, React.js, JavaScript, HTML, CSS, and Bootstrap, integrating client views with the Branding Hut Laravel backend team and participating in project planning discussions.",
+      "Served as Frontend Developer building responsive user interfaces with Next.js, JavaScript, HTML, CSS, and Bootstrap, integrating client views with the Branding Hut Laravel backend team and participating in project planning discussions (project currently on hold).",
     keyFeatures: [
-      "Responsive property and real estate UI views built with Next.js and React.js components",
+      "Responsive property and real estate UI views built with Next.js",
       "Mobile-friendly layouts crafted using HTML, CSS, JavaScript, and Bootstrap",
-      "API coordination between client-side React views and Laravel / PostgreSQL backend services",
-      "Agile team collaboration with Branding Hut developers and designers on feature requirements"
+      "API coordination between client-side Next.js views and Laravel / PostgreSQL backend services",
+      "Agile team collaboration with Branding Hut developers on frontend requirement alignment"
     ],
     developmentApproach:
-      "Modular React and Next.js frontend engineering synchronized closely with Branding Hut's Laravel API contracts to keep data rendering clean and responsive.",
+      "Modular Next.js frontend engineering synchronized with Branding Hut's Laravel API contracts to keep data rendering clean and responsive.",
     outcome:
-      "Delivered collaborative, responsive real estate frontend interfaces integrated cleanly with the team's Laravel backend workflows."
+      "Frontend contributions to ApnaVilla, a real estate web application (project currently on hold), establishing responsive Next.js client layouts in collaboration with the Laravel backend team."
   },
   {
     id: "code7-erp",

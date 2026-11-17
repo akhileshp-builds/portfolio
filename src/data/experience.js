@@ -293,28 +293,28 @@ export const freelanceExperience = {
     }
   ],
   featuredProject: {
-    badge: "FEATURED TEAM PROJECT",
+    badge: "FEATURED TEAM PROJECT (ON HOLD)",
     name: "ApnaVilla",
     category: "Real Estate Web Application",
     organization: "Branding Hut Team",
     myRole: "Frontend Developer",
     description:
-      "Collaborated with the Branding Hut team to develop ApnaVilla, a real estate web application designed to support property-related digital services.",
+      "Frontend contributions to ApnaVilla, a real estate web application (project currently on hold) developed with the Branding Hut team.",
     myContributions: [
-      "Developed frontend interfaces using React.js.",
+      "Contributed to frontend interfaces using Next.js.",
       "Implemented responsive and user-friendly UI components.",
       "Worked with the Laravel backend development team.",
       "Collaborated with team members on frontend and backend integration.",
-      "Participated in team discussions and project development activities."
+      "Participated in team discussions and project planning activities."
     ],
     teamCollaborationContext: {
-      frontendScope: "React.js UI components, responsive layouts, and client-side application views",
+      frontendScope: "Next.js UI components, responsive layouts, and client-side application views",
       backendScope: "Managed by the Branding Hut Laravel backend development team",
       integrationNote:
-        "Coordinated closely across team members to integrate React.js frontend interfaces with Laravel backend services."
+        "Coordinated with the team to integrate Next.js frontend interfaces with Laravel backend services."
     },
     technologies: [
-      "React.js",
+      "Next.js",
       "JavaScript",
       "Laravel",
       "PostgreSQL",

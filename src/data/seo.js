@@ -259,11 +259,11 @@ const PROJECT_SEO_OVERRIDES = {
     imageAlt: 'POS Business Management Software case study by Akhilesh P.'
   },
   apnavilla: {
-    title: 'ApnaVilla — Next.js Real Estate Web App | Akhilesh P.',
+    title: 'ApnaVilla — Next.js Real Estate Frontend | Akhilesh P.',
     description:
-      'ApnaVilla is a real estate web application built with responsive Next.js and React.js frontend interfaces integrated with Laravel and PostgreSQL backend services at Branding Hut.',
+      'Frontend contributions to ApnaVilla, a real estate web application (project currently on hold), built with Next.js in collaboration with a Laravel backend team at Branding Hut.',
     image: DEFAULT_OG_IMAGE,
-    imageAlt: 'ApnaVilla Next.js real estate web application case study by Akhilesh P.'
+    imageAlt: 'ApnaVilla Next.js real estate web application frontend case study by Akhilesh P.'
   },
   'code7-erp': {
     title: 'Code7 ERP — ASP.NET Core & Kendo UI Modules | Akhilesh P.',
