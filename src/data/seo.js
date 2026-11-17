@@ -1,5 +1,6 @@
 import { projects } from './projects.js';
 import { socialLinks } from './socialLinks.js';
+import { faqs } from './faq.js';
 
 export const SITE_URL = 'https://akhileshp.com';
 export const SITE_NAME = 'Akhilesh P.';
@@ -9,6 +10,8 @@ export const DEFAULT_OG_IMAGE_ALT = 'Akhilesh P., Full-Stack Developer in Malapp
 const PERSON_ID = `${SITE_URL}/#person`;
 const WEBSITE_ID = `${SITE_URL}/#website`;
 const PROFILE_PAGE_ID = `${SITE_URL}/#profilepage`;
+const SERVICE_ID = `${SITE_URL}/#service`;
+const FAQ_PAGE_ID = `${SITE_URL}/#faqpage`;
 
 const PROFILE_SAME_AS = socialLinks
   .map((item) => item.url)
@@ -21,12 +24,23 @@ const PERSON_ENTITY = {
   jobTitle: 'Full-Stack Developer',
   url: `${SITE_URL}/`,
   image: DEFAULT_OG_IMAGE,
-  email: 'mailto:akhipn4753@gmail.com',
+  email: 'mailto:akhileshp.dev@gmail.com',
+  telephone: '+919526008613',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Malappuram',
     addressRegion: 'Kerala',
     addressCountry: 'IN'
+  },
+  alumniOf: {
+    '@type': 'EducationalOrganization',
+    name: 'University of Calicut',
+    url: 'https://uoc.ac.in/'
+  },
+  hasOccupation: {
+    '@type': 'Occupation',
+    name: 'Full-Stack Developer',
+    occupationalCategory: '15-1254.00'
   },
   knowsAbout: [
     'Full-Stack Web Development',
@@ -41,9 +55,65 @@ const PERSON_ENTITY = {
     'SQL',
     'PostgreSQL',
     'AI Integration',
-    'Accounting & Financial Operations'
+    'Google Gemini API',
+    'Groq API',
+    'Accounting & Financial Operations',
+    'Technical SEO & Performance'
   ],
   sameAs: PROFILE_SAME_AS
+};
+
+const PROFESSIONAL_SERVICE_ENTITY = {
+  '@type': 'ProfessionalService',
+  '@id': SERVICE_ID,
+  name: 'Akhilesh P. — Full-Stack Web Development Services',
+  url: `${SITE_URL}/`,
+  image: DEFAULT_OG_IMAGE,
+  telephone: '+919526008613',
+  email: 'mailto:akhileshp.dev@gmail.com',
+  priceRange: '$$',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Malappuram',
+    addressRegion: 'Kerala',
+    addressCountry: 'IN'
+  },
+  areaServed: [
+    { '@type': 'AdministrativeArea', name: 'Malappuram' },
+    { '@type': 'AdministrativeArea', name: 'Kozhikode' },
+    { '@type': 'AdministrativeArea', name: 'Kerala' },
+    { '@type': 'Country', name: 'India' },
+    { '@type': 'AdministrativeArea', name: 'Remote' }
+  ],
+  serviceType: [
+    'Full-Stack Web Development',
+    'React Frontend Development',
+    'Python Django Backend Development',
+    'ASP.NET Core ERP Development',
+    'AI Web Application Integration',
+    'Technical SEO & Performance Optimization'
+  ],
+  provider: {
+    '@id': PERSON_ID
+  }
+};
+
+const FAQ_PAGE_ENTITY = {
+  '@type': 'FAQPage',
+  '@id': FAQ_PAGE_ID,
+  name: 'Frequently Asked Questions about Akhilesh P.',
+  url: `${SITE_URL}/#faq`,
+  isPartOf: {
+    '@id': WEBSITE_ID
+  },
+  mainEntity: faqs.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.answer
+    }
+  }))
 };
 
 const WEBSITE_ENTITY = {
@@ -65,6 +135,8 @@ export function buildHomeJsonLd() {
     '@graph': [
       PERSON_ENTITY,
       WEBSITE_ENTITY,
+      PROFESSIONAL_SERVICE_ENTITY,
+      FAQ_PAGE_ENTITY,
       {
         '@type': 'ProfilePage',
         '@id': PROFILE_PAGE_ID,
