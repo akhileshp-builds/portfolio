@@ -1,0 +1,46 @@
+# Akhilesh P. — Full-Stack Developer
+
+> Full-Stack Developer based in Malappuram, Kerala, India. Specializes in building ERP systems, business web applications, and AI-powered digital products using React, Django, and ASP.NET Core.
+
+## Overview
+- **Name:** Akhilesh P.
+- **Role:** Full-Stack Developer
+- **Location:** Malappuram, Kerala, India (Available for local roles in Malappuram & Kozhikode, and Remote globally)
+- **Background:** Bachelor of Commerce (B.Com) from Calicut University; transitioned into software engineering combining financial/accounting domain knowledge with full-stack development.
+- **Portfolio:** https://akhileshp.com/
+- **Contact:** akhileshp.dev@gmail.com | +91 9526008613
+
+## Core Capabilities & Services
+- **Full-Stack Web Development:** End-to-end responsive web applications using React.js, Python Django, and ASP.NET Core MVC.
+- **ERP & Business Software:** Accounting-aligned billing, POS workflows, inventory, tax, and reporting systems.
+- **Backend & REST APIs:** Robust API architecture with C# / ASP.NET Core and Python / Django, backed by PostgreSQL, SQL Server, and SQLite.
+- **Generative AI Integration:** Practical LLM features (Google Gemini API, Groq API) for automated task planning, writing assistance, and conversational assistants.
+- **Frontend Engineering:** Accessible, high-performance user interfaces with React.js, Tailwind CSS, Material UI, and Kendo UI.
+
+## Technical Stack
+- **Languages:** JavaScript (ES6+), Python, C#, HTML5, CSS3, SQL
+- **Frameworks & Libraries:** React.js, React Native, Django, ASP.NET Core MVC, .NET, Bootstrap, Tailwind CSS, Material UI, Kendo UI
+- **Databases:** PostgreSQL (Neon), SQLite, SQL Server
+- **AI & APIs:** Google Gemini API, Groq API, RESTful APIs
+- **Tools:** Git, GitHub, Vite, Visual Studio, Postman, Render, Vercel
+
+## Featured Projects
+- **TaskFlow:** Full-stack Django task management app with Neon PostgreSQL, email reminders, and Gemini/Groq AI planning. Case study: https://akhileshp.com/projects/taskflow
+- **INKSPACE:** Django blogging platform with rich-text editor and Gemini AI writing assistant. Case study: https://akhileshp.com/projects/inkspace
+- **Daybook:** React Native daily planning mobile app with Plan vs. Action analytics and habit tracking. Case study: https://akhileshp.com/projects/daybook
+- **Code7 ERP:** Enterprise ERP web modules developed with ASP.NET Core MVC and Kendo UI data grids. Case study: https://akhileshp.com/projects/code7-erp
+- **ApnaVilla:** Real estate web application developed with React.js frontend integrated with Laravel backend. Case study: https://akhileshp.com/projects/apnavilla
+- **POS Business Management:** Collaborative point-of-sale functional planning and business workflow architecture. Case study: https://akhileshp.com/projects/pos-business-management
+
+## Professional Experience
+- **BlackBox Learning Academy:** Genstack Internship — Python Django, PostgreSQL, AI APIs (Sept 2026 – Nov 2026)
+- **Ebsor Infosystem Pvt. Ltd.:** Dot Net Developer — ASP.NET Core MVC, ERP modules, REST APIs (Dec 2024 – Mar 2026)
+- **AllPro TechLabs:** Web Development — React.js applications (UL CyberPark, Calicut)
+- **myG India Private Limited:** Accountant Executive — Financial statements, GL, GST compliance, SAP B1 (Jan 2023 – May 2024)
+- **Branding Hut:** Freelance Collaboration — Frontend development, technical SEO, creative design (Govt. Cyberpark, Kozhikode)
+
+## Official Links
+- Website: https://akhileshp.com/
+- GitHub: https://github.com/akhileshp-builds
+- LinkedIn: https://www.linkedin.com/in/akhileshp-dev
+- WhatsApp: https://wa.me/+919526008613

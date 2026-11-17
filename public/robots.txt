@@ -1,6 +1,18 @@
+# Search Engine & AI Crawler Directives for Akhilesh P. Portfolio
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+User-agent: Google-Extended
+Allow: /
+Disallow: /api/
+
 User-agent: *
 Allow: /
 Disallow: /api/
 
 Sitemap: https://akhileshp.com/sitemap.xml
-
